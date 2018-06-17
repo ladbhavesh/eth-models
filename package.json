@@ -1,0 +1,36 @@
+{
+  "name": "eth-models",
+  "version": "0.1.0",
+  "description": "Model definations",
+  "main": "dist/index",
+  "typings": "dist/index",
+  "scripts": {
+    "prepublishOnly": "npm run compile",
+    "compile": "npm run  && tsc -p .",
+    "watch": "tsc -w -p .",
+    "clean": "RMDIR dist /S /Q"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ladbhavesh/eth-models.git"
+  },
+  "keywords": [
+    "eth",
+    "models"
+  ],
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts",
+    "dist/lib"
+  ],
+  "devDependencies": {
+    "@types/node": "^10.3.3",
+    "typescript": "^2.9.2"
+  },
+  "author": "Bhavesh Lad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ladbhavesh/eth-models/issues"
+  },
+  "homepage": "https://github.com/ladbhavesh/eth-models#readme"
+}
